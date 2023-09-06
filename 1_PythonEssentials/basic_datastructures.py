@@ -2,7 +2,13 @@
 def main():
     print("Data Structure Simulation")
     print("--------------------------------")
-    # create a list of 10 random numbers where at least one number is 1
+
+    # create a list of numbers
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+    # create another list copying the numbers
+    numbers_copy = numbers.copy()
+
 
 
 

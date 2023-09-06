@@ -14,6 +14,14 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    # poor way to do it
+    for number in range(2, 101):
+        hasFactor = False
+        for factor in range(2, int(number ** 0.5) + 1):
+            if number % factor == 0:
+                hasFactor = True
+        if not hasFactor:
+            print(f'{number} is prime')
 
 
     
